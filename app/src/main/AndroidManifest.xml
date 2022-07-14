@@ -11,7 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.a8_final_submission"
+        android:theme="@style/Theme.A8finalsubmission"
         tools:targetApi="31">
         <activity
             android:name=".SendStickerActivity"
