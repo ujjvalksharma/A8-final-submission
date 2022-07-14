@@ -22,8 +22,6 @@ public class GetNotificationService extends FirebaseMessagingService {
     @Override
     public void onMessageReceived(@NonNull RemoteMessage remoteMessage) {
 
-
-
         String title = remoteMessage.getNotification().getTitle();
         String stickerId = remoteMessage.getNotification().getBody();
 
