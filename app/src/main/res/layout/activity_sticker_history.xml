@@ -5,11 +5,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
         <TextView
+
             android:id="@+id/stickerHistoryTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp"
             android:text="My Sticker History"
+            android:padding="10dp"
+            android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -20,7 +23,7 @@
         app:layout_constraintTop_toBottomOf="@+id/stickerHistoryTextView"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_editor_absoluteX="0dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="100dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/stickerHistoryRecycleView"
